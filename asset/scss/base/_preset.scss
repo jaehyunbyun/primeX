@@ -1,0 +1,74 @@
+
+
+/*
+    @세팅구역
+*/
+// html{height: 100%;}
+body {
+    // min-width: ?세팅하시고
+    // font-family: $font-kr01;
+    // font-size: 14px;
+    // color:var(--colorBg1);
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    font-family: $font-en;
+    color: #1a1b1f;
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 400;
+    // height: 100%;
+
+    padding-top: 100vh;
+    background-color: #141414;
+}
+
+
+
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+}
+
+// .common-inner{
+//     max-width: 1200px;
+//     margin: 0 auto;
+//     padding: 0 50px;
+// }
+.common-inner{
+    // max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+
+
+
+
+//섹션 타이틀 일단 보류 좌우 수치값 어떻게 줘야할지 모르겠음
+.title-box{
+    display: flex;
+    // justify-content: space-between;
+    padding: 120px 0 40px;
+    font-family: neue-haas-unica, sans-serif;
+    color: #f3f3f3;
+    
+    .sc-title{
+        flex: 3;
+        margin-right: 40px;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 300;
+    }
+    .desc{
+        flex: 4;
+        font-size: 21px;
+        line-height: 120%;
+        font-weight: 300;
+    }
+}

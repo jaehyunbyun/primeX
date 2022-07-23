@@ -1,0 +1,65 @@
+.footer{
+    position: relative;
+    padding: 64px 96px;
+    background-color: #111;
+    .f-logo-area{
+        display: flex;
+        margin: 0px auto 100px;
+
+
+        .f-logo{
+            flex: 3;
+            font-family: superior-title, sans-serif;
+            color: #f3f3f3;
+            font-size: 32px;
+            font-style: italic;
+            font-weight: 300;
+        }
+
+        .fnb-list{
+            flex: 1;
+            // margin-bottom: 8px; li에 넣기
+            font-family: Avenir, sans-serif;
+            color: #f3f3f3;
+            font-weight: 300;
+        }
+        .fnb-item{
+            padding-bottom: 8px;
+        }
+        .link-fnb:hover{
+            color: #43464d;
+        }
+
+
+        .sns-box{
+            display: flex;
+            margin-top: 15px;
+        }
+        .link-sns{
+            display: block;
+            width: 24px;height: 24px;
+            +.link-sns{
+                margin-left: 20px;
+            }
+        }
+        .facebook{
+            background: url(../images/icon/facebook.png) no-repeat;
+            background-size: 24px 24px;
+        }
+        .insta{
+            background: url(../images/icon/instagram.png) no-repeat;
+            background-size: 24px 24px;
+        }
+        .twitter{
+            background: url(../images/icon/twitter.png) no-repeat;
+            background-size: 24px 24px;
+        }
+    }
+
+    .copy{
+        font-family: Avenir, sans-serif;
+        color: #f3f3f3;
+        font-size: 14px;
+        font-weight: 200;
+    }
+}

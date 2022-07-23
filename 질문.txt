@@ -1,0 +1,11 @@
+질문
+btn-shop 버튼
+원래는 js로 되있는걸 css로 만해결하였다
+버튼에 가상선택자를 만들어 놓고
+width를  0으로 해놓는다 그리고 
+transition all 0.4 해놓은후 :hover 에 z-index1 
+hover::after에 w100% z-index-1; 
+hover::after는 어디가 선택된건가
+
+
+gsap활용한거 위주로 노션 쓰기
