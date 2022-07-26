@@ -16,7 +16,7 @@ $(function(){
 
     
     logoTl = gsap.timeline({})
-    .from ('.visual-logo-wrap',{delay:1, opacity: 0,duration:2});
+    logoTl.from ('.visual-logo-wrap',{delay:1, opacity: 0,duration:2});
         
 // 아직 오류해결 못함 07/11
 
@@ -60,7 +60,7 @@ $('.motion').each(function(index,item){
             trigger:item,
             start:"0% 100%", // ['트리거','윈도으']
             end:"bottom bottom",
-            markers:true,
+            // markers:true,
             // scrub:1,
         },
         yPercent:yVal,
@@ -80,7 +80,7 @@ textside.forEach((textside) => {
         scrollTrigger: {
             trigger: textside,
             start : '50% 100%',
-            markers:true,
+            // markers:true,
         }
     })
 })
