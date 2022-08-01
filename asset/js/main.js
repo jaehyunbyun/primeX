@@ -333,6 +333,33 @@ prdTl = gsap.timeline({})
     //     'xPercent': 300,
     // })
 
+//마우스 호버시 이미지 붙는 부분
+// $('.sctest').mousemove(function(e){
+//     xX = e.clientX
+//     yY = e.clientY
+//     // x = e.pageX
+//     // y = e.pageY
+//     // x = e.offsetX
+//     // y = e.offsetY
+//     console.log(xX+'///'+yY);
+//     gsap.to('.sctest .mcursor',{
+//         opacity:1,
+//         top:yY,
+//         left:xX
+//     })
+// })
 
+// $('.sctest').mouseleave(function(){
+//     gsap.to('.sctest .mcursor',{opacity:0})
+// })
+
+
+// const imgArra = ['./asset/images/bg/bag-bg.jpg']
+// $('.sctest').hover(function(){
+//     // idx = $(this).index();
+//     // console.log(idx);
+//     // alert(idx);
+//     $('.mcursor img').attr('src',imgArra);
+// })
 
 })
